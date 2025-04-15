@@ -29,7 +29,7 @@ gem 'better_errors', '~> 2.7', '>= 2.7.1'
 
 gem 'faker' 
 
-gem 'blazer' 
+gem 'blazer' , '>= 3.3.0'
 
 gem 'sendgrid-ruby' 
 
