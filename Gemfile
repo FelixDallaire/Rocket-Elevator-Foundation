@@ -17,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 # gem rail admin
 gem 'rails_admin', '~> 2.0', '>= 2.0.2'
-gem 'twilio-ruby' 
+gem 'twilio-ruby' , '>= 5.67.0'
 gem 'pg' 
 
 gem 'devise' 
@@ -109,7 +109,7 @@ gem 'capistrano3-puma', '>= 3.1.1'
 # Dropbox
 gem 'dropbox_api' 
 #Slack integration gems
-gem 'slack-ruby-client' 
+gem 'slack-ruby-client' , '>= 1.1.0'
 gem 'http' 
 
 #Environment variables for credential protection
@@ -124,8 +124,8 @@ gem 'pry-byebug'
 gem 'zendesk_api', git: 'https://github.com/zendesk/zendesk_api_client_rb' 
 
 # Google analytic
-gem 'google-api-client', '~> 0.34'
+gem 'google-api-client', '~> 0.53', '>= 0.53.0'
 # gem 'google-api-client', '~> 0.11', require: ‘google/apis/analyticsreporting_v4’
-gem 'googleauth'
+gem 'googleauth', '>= 1.1.2'
 # New Relic
 gem 'newrelic_rpm'
